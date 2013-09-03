@@ -1,1 +1,22 @@
 # data-source : http://msa.maryland.gov/msa/mdmanual/08conoff/html/01exec.html
+
+maryland :
+        name : The State of Maryland
+                subunits :
+                        legislative_branch : 
+                                name : General Assembly
+                                        subunits :
+                                                upper-house : 
+                                                        name : Senate
+                                                        subunits : 'senate.yaml'                                                               '
+                                                lower-house : 
+                                                        name : House of Delegates
+                                                        subunits : 'house-of-delegates.yaml'
+                                                                
+                        executive_branch : 
+                                name : The Executive Branch of the State of Maryland
+                                subunits : 'executive_branch.yaml'
+                        judicial_branch :
+                                name : The Judicial Branch of the State of Maryland
+                                subunits : 'judicial_branch.yaml'
+                                        
